@@ -19,35 +19,35 @@
     font-size: 18px;
     line-height: 25px;
     color: #000000;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
     align-items: center;
     text-align: left;
     width: 90%;
 }
 
-.font2{
+.font2 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color:  #de1768 !important;
-    margin-left: auto; 
+    color: #de1768 !important;
+    margin-left: auto;
     margin-right: auto;
     align-items: center;
     text-align: left;
-    width: 90%; 
+    width: 90%;
 }
 
-.font3{
+.font3 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color:  #ffffff !important;
-    margin-left: auto; 
+    color: #ffffff !important;
+    margin-left: auto;
     margin-right: auto;
     align-items: center;
     text-align: left;
@@ -63,24 +63,35 @@ h1 {
     font-weight: 800;
     font-size: 24px;
     line-height: 30px;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
     align-items: center;
     text-align: left;
     width: 90%;
 }
 
-.pt2{
+.pt2 {
     color: #ffffff !important;
 }
 
 
-.div1{
-    border: 3px solid yellowgreen;
+.div1 {
     min-height: 800px;
 }
 
-.div2{
+.div2 {
     background: #de1768;
     min-height: 900px;
 }
+
+.alinhamento {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+
