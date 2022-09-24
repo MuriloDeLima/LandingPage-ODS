@@ -61,7 +61,7 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -92,6 +92,16 @@ h1 {
 
 .container-fluid{
     padding: 0;
+}
+
+a:link{
+    color: #E4DAE8;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #E4DAE8;
+    text-decoration: none;
 }
 
 
