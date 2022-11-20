@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <content>
+    <navbar>
+        <imagenavbar>ods-logo.jpg</imagenavbar>
+    </navbar>
     <part>
+        <imageinicio>image-inicio.jpg</imageinicio>
         <title1> O que são os Objetivos de desenvolvimento sustentáveis? </title1>
               <text1>
                 Os Objetivos de Desenvolvimento Sustentáveis (ODS) é uma agenda mundial adotada durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável em setembro de 2015, composta por 17 objetivos e 169 metas a serem atingidos até 2030.
@@ -9,6 +13,7 @@
               <text2>
               Os 193 Estados membros da ONU, incluindo o Brasil, comprometeram-se a adotar a chamada Agenda 2030, considerada uma das mais ambiciosas da história da diplomacia internacional. A partir dela, as nações trabalharão para cumprir os ODS.
               </text2>
+              <image1>onu.png</image1>
               <text3>
               A importância dos ODS se dá pelo fortalecimento da cultura da sustentabilidade ambiental e social nos governos e nas empresas e, no universo corporativo, esses objetivos tornam os negócios mais eficientes, responsáveis, transparentes e mais competitivos. Ao adotar uma metodologia para cumprir os ODS, as empresas assumem um papel relevante na mitigação dos riscos impostos ao meio ambiente e aos recursos naturais, além de contribuírem para a saúde, o bem-estar e a qualidade de vida no planeta.
               </text3>
@@ -53,6 +58,9 @@
             Melhorar a regulamentação e monitoramento dos mercados e instituições
             financeiras globais e fortalecer a implementação de tais regulamentações
         </cardtext5>
+        <imagecarousel1>carousel-img1.jpg</imagecarousel1>
+        <imagecarousel2>carousel-img2.png</imagecarousel2>
+        <imagecarousel3>carousel-img3.png</imagecarousel3>
         <cardtitle6>10.6</cardtitle6>
         <cardtext6>
             Assegurar uma representação e voz mais forte dos países em desenvolvimento
@@ -66,5 +74,9 @@
         <footername2>Murilo de Lima Martins</footername2>
         <footername3>Kauã Ribeiro e Moledo</footername3>
         <footertext1>Acompanhe às Nações Unidas nas redes sociais</footertext1>
+        <imagefooter1>instagram.png</imagefooter1>
+        <imagefooter2>twitter.png</imagefooter2>
+        <imagefooter3>youtube.png</imagefooter3>
+        <imagefooter4>facebook.png</imagefooter4>
     </part4>
 </content>

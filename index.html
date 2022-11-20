@@ -7,7 +7,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+  <script src="js/script.js"></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,14 +22,14 @@
     <nav class="navbar bg-dark">
       <div class="container">
         <a class="navbar-brand">
-          <img src="images/ods-logo.jpg" class="rounded-circle" width="40px">
+          <script>imagenavbar()</script>
         </a>
       </div>
     </nav>
     <!-- Barra de navegação-->
 
     <!-- Titulo com imagem-->
-    <img src="images/image-inicio.jpg" class="img-fluid">
+    <script> imageinicio()</script>
     <!-- Titulo com imagem-->
 
 
@@ -38,24 +38,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-8 col-xs-6">
-            <h1 class="text-center mt-5">
-              <script> title1() </script>
-            </h1>
-            <p class="font mt-5">
-              <script> text1()</script>
-            </p>
-            <p class="font">
-             <script>text2()</script>
-            </p>
-            <div class="col-xxl-8 col-md-6 col-sm-6-col-xs-4 pt-5 pb-3 center">
-             <img src="images/onu.png" class="img-fluid">
-            </div>
-            <p class="font pt-5">
-              <script>text3()</script>
-            </p>
-            <p class="font">
-            <script>text4()</script>
-            </p>
+            <script>
+              title1()
+              text1()
+              text2()
+              image1()
+              text3()
+              text4()
+              </script>
           </div>
         </div>
       </div>
@@ -68,26 +58,24 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-8 col-xs-6">
-            <h1 class="pt2 text-center mt-5">
-              <script>title2()</script>
-            </h1>
-            <p class="font3 mt-5">
-              <script>text5()</script>
-            </p>
+            <script>
+              title2()
+              text5()
+            </script>
             <br><br>
             <!-- Carousel -->
             <div class="row">
-              <div class="col-xxl-8 col-md-6 col-sm-6 col-xs-4 alinhamento">
+              <div class="col-xxl-8 col-md-6 col-sm-6 col-xs-4 center">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner" style="border-radius: 10px;">
                     <div class="carousel-item active">
-                      <img src="images/carousel-img1.jpg" class="d-block w-100">
+                      <script>imagecarousel1()</script>
                     </div>
                     <div class="carousel-item">
-                      <img src="images/carousel-img2.png" class="d-block w-100">
+                      <script>imagecarousel2()</script>
                     </div>
                     <div class="carousel-item">
-                      <img src="images/carousel-img3.png" class="d-block w-100">
+                      <script>imagecarousel3()</script>
                     </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -104,9 +92,7 @@
               </div>
               <!-- Carousel -->
               <div class="col-md-12 col-sm-8 col-xs-6">
-                <p class="font3 mt-5">
-                 <script>text6()</script>
-                </p>
+                <script>text6()</script>
               </div>
             </div>
             <br><br>
@@ -116,142 +102,53 @@
     </div>
     <!-- Área de texto 2-->
 
-
     <!-- Área de texto 3-->
     <div class="container-fluid" style="min-height: 870px;">
       <div class="container div1">
         <div class="row">
           <div class="col-md-12 col-sm-8 col-xs-6">
-            <h1 class="text-center mt-5">
-              <script>title3()</script>
-            </h1>
+            <script>title3()</script>
           </div>
         </div>
-        <!-- Linha  -->
         <div class="row mt-5">
-          <!-- Card -->
-          <div class="col-12  col-sm-6 col-lg-4 mt-2">
-            <div class="card bg-dark" style="min-height: 270px;">
-              <div class="card-body">
-                <h5 class="card-title text-center font2">
-                  <script>cardtitle1()</script>
-                </h5>
-                <p class="card-text font3">
-                  <script>cardtext1()</script>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12  col-sm-6 col-lg-4 mt-2">
-            <div class="card bg-dark" style="min-height: 270px;">
-              <div class="card-body">
-                <h5 class="card-title text-center font2">
-                  <script>cardtitle2()</script>
-                </h5>
-                <p class="card-text font3">
-                  <script>cardtext2()</script>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12  col-sm-6 col-lg-4 mt-2">
-            <div class="card bg-dark" style="min-height: 270px;">
-              <div class="card-body">
-                <h5 class="card-title text-center font2">
-                  <script>cardtitle3()</script>
-                </h5>
-                <p class="card-text font3">
-                  <script>cardtext3()</script>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
+          <!-- Card  -->
+          <script>
+            card1()
+            card2()
+            card3()
+          </script>
         </div>
-        <!-- Linha -->
-        <!-- Linha  -->
         <div class="row mt-5">
-          <!-- Card -->
-          <div class="col-12  col-sm-6 col-lg-4 mt-2">
-            <div class="card bg-dark" style="min-height: 270px;">
-              <div class="card-body">
-                <h5 class="card-title text-center font2">
-                  <script>cardtitle4()</script>
-                </h5>
-                <p class="card-text font3">
-                  <script>cardtext4()</script>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12  col-sm-6 col-lg-4 mt-2">
-            <div class="card bg-dark" style="min-height: 270px;">
-              <div class="card-body">
-                <h5 class="card-title text-center font2">
-                  <script>cardtitle5()</script>
-                </h5>
-                <p class="card-text font3">
-                  <script>cardtext5()</script>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- Card -->
-          <!-- Card -->
-          <div class="col-12  col-sm-6 col-lg-4 mt-2">
-            <div class="card bg-dark" style="min-height: 270px;">
-              <div class="card-body">
-                <h5 class="card-title text-center font2">
-                  <script>cardtitle6()</script>
-                </h5>
-                <p class="card-text font3">
-                  <script>cardtext6()</script>
-                </p>
-              </div>
-            </div>
-          </div>
+          <script>
+            card4()
+            card5()
+            card6()
+          </script>
           <!-- Card -->
         </div>
-        <!-- Linha -->
       </div>
     </div>
 
     <!-- Área de texto 3-->
-
 
     <!-- Footer -->
     <div class="container-fluid bg-dark">
       <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <section class="col-12 col-md-5 mb-5">
-            <h5 class="font2 text-center">
-              <script>footercreators()</script>
-            </h5>
+            <script>footercreators()</script>
             <ul>
-              <li class="text-center"> 
-                <a href="https://github.com/Kauadt" class="font3">
-                  <script>footername1()</script>
-                </a>
+              <li class="text-center">
+                <script>footername1()</script>
               </li>
               <li class="text-center">
-                <a href="https://github.com/MuriloDeLima" class="font3">
-                  <script>footername2()</script>
-                </a>
+                <script>footername2()</script>
               </li>
               <li class="text-center">
-                <a href="https://github.com/zzzKauaMoledo" class="font3">
-                  <script>footername3()</script>
-                </a>
+                <script>footername3()</script>
               </li>
             </ul>
           </section>
-
           <section class="col-12 col-md-5">
             <h5 class="font2 text-center">
               <script>footertext1()</script>
@@ -259,17 +156,17 @@
             <ul>
               <li class="text-center">
                 <a href="https://www.instagram.com/onubrasil/">
-                  <img src="images/instagram.png">
+                  <script>imageinsta()</script>
                 </a>
                 <a href="https://twitter.com/ONUBrasil">
-                  <img src="images/twitter.png">
+                  <script>imagetwitter()</script>
                 </a>
                 <a href="https://www.youtube.com/onubrasiloficial">
-                  <img src="images/youtube.png">
+                 <script>imageyt()</script>
                 </a>
                 <a href="https://www.facebook.com/ONUBrasil">
-                  <img src="images/facebook.png">
-                </a>  
+                 <script>imageface()</script>
+                </a>
               </li>
             </ul>
           </section>

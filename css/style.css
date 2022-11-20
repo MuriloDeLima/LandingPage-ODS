@@ -80,12 +80,6 @@ p{
     min-height: 900px;
 }
 
-.alinhamento {
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-}
-
 .container-fluid{
     padding: 0;
 }
