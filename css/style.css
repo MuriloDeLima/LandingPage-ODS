@@ -15,8 +15,7 @@
 .font {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 300;
     line-height: 25px;
     color: #000000;
     margin-left: auto;
@@ -29,8 +28,7 @@
 .font2 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 300;
     line-height: 25px;
     color: #de1768 !important;
     margin-left: auto;
@@ -44,7 +42,6 @@
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
     line-height: 25px;
     color: #ffffff !important;
     margin-left: auto;
@@ -61,8 +58,8 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
     line-height: 30px;
+    font-size: min(41px, 7vw); 
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -70,14 +67,13 @@ h1 {
     width: 90%;
 }
 
+p{
+    font-size: min(21px, 4vw);
+}
 .pt2 {
     color: #ffffff !important;
 }
 
-
-.div1 {
-    min-height: 800px;
-}
 
 .div2 {
     background: #de1768;
@@ -103,5 +99,11 @@ a:visited{
     color: #E4DAE8;
     text-decoration: none;
 }
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
