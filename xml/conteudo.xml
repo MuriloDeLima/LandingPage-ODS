@@ -6,15 +6,15 @@
     </navbar>
     <part>
         <imageinicio>image-inicio.jpg</imageinicio>
-        <title1> O que são os Objetivos de desenvolvimento sustentáveis? </title1>
-              <text1>
+            <title1> O que são os Objetivos de Desenvolvimento Sustentáveis? </title1>
+                <text1>
                 Os Objetivos de Desenvolvimento Sustentáveis (ODS) é uma agenda mundial adotada durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável em setembro de 2015, composta por 17 objetivos e 169 metas a serem atingidos até 2030.
-              </text1>
-              <text2>
+                </text1>
+                <text2>
               Os 193 Estados membros da ONU, incluindo o Brasil, comprometeram-se a adotar a chamada Agenda 2030, considerada uma das mais ambiciosas da história da diplomacia internacional. A partir dela, as nações trabalharão para cumprir os ODS.
-              </text2>
-              <image1>onu.png</image1>
-              <text3>
+                </text2>
+        <image1>onu.png</image1>
+        <text3>
               A importância dos ODS se dá pelo fortalecimento da cultura da sustentabilidade ambiental e social nos governos e nas empresas e, no universo corporativo, esses objetivos tornam os negócios mais eficientes, responsáveis, transparentes e mais competitivos. Ao adotar uma metodologia para cumprir os ODS, as empresas assumem um papel relevante na mitigação dos riscos impostos ao meio ambiente e aos recursos naturais, além de contribuírem para a saúde, o bem-estar e a qualidade de vida no planeta.
               </text3>
     </part>
@@ -79,4 +79,51 @@
         <imagefooter3>youtube.png</imagefooter3>
         <imagefooter4>facebook.png</imagefooter4>
     </part4>
+
+
+    <!-- Blog -->
+    <blog>
+        <postagem codigo="150">
+            <titulo>Índice medirá a redução de desigualdades na educação</titulo>
+            <subtitle>Cálculo do Inep aferirá melhoria de indicadores educacionais. Encurtamento das disparidades é critério para distribuição de recursos às redes em 2023</subtitle>
+            <blogtext>
+                 A Comissão Intergovernamental de Financiamento para a Educação Básica de Qualidade aprovou a metodologia de cálculo para medir a redução das desigualdades educacionais socioeconômicas e raciais, condicionantes para a distribuição de recursos da complementação Valor Aluno Ano Resultado (VAAR) do Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação (Fundeb). O Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) elaborou o método, que será aplicado no Sistema Nacional de Avaliação da Educação Básica (Saeb), coordenado pela Autarquia.
+    
+                A proposta do VAAR, desenvolvida por especialistas do Inep, compreende, entre outros fatores, a melhoria de indicadores de atendimento e de aprendizagem com redução das desigualdades, sendo também critério para habilitar as redes de ensino a receberem o suporte da União. Nesse contexto, o índice será um dos fatores considerados na distribuição de recursos às redes públicas, a partir de 2023. Especificamente no próximo ano, os dados do Saeb 2021 não serão utilizados, em razão dos impactos da pandemia de covid-19 nos resultados. Desse modo, o cumprimento da condicionante será medido pelos dados de cor e raça coletados nos questionários, além do desempenho dos alunos nas edições de 2017 e 2019. O Indicador de Nível Socioeconômico (Inse) também será considerado.
+       
+                Fundeb – O Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação é um mecanismo permanente de financiamento educacional brasileiro. O novo Fundeb é formado por 27 fundos, sendo 26 estaduais e 1 do Distrito Federal, que são compostos, basicamente, pelas contribuições desses entes federados. A União complementa quando os valores mínimos definidos não são alcançados. Uma das formas de complementação, com efeitos a partir de 2023, será o VAAR.
+     
+                Recursos – A distribuição dos recursos é feita tendo como base as matrículas, ponderadas por 19 fatores principais, de acordo com as etapas de ensino (infantil, fundamental e médio), as modalidades (regular, educação de jovens e adultos ou educação profissional e tecnológica), duração da jornada (parcial ou integral) e os tipos de estabelecimentos educacionais (rural ou urbano).
+    
+                Colegiado – Vinculada ao Ministério da Educação (MEC), a Comissão Intergovernamental de Financiamento para a Educação Básica de Qualidade tem suas atribuições previstas na lei que regulamentou o Novo Fundeb. Ao grupo compete, por exemplo, especificar, anualmente, os fatores de ponderação a serem considerados na partilha do fundo. O colegiado conta com representantes do MEC, do Inep e do Fundo Nacional de Desenvolvimento da Educação (FNDE). Secretários estaduais e municipais de Educação fazem parte da composição. A Resolução (n.º 5/2022) sobre a metodologia do VAAR foi publicada no Diário Oficial da União (DOU) da última semana.
+            </blogtext>
+            <lermais>Ler mais</lermais>
+    
+        </postagem>
+        <postagem codigo="151">
+            <titulo1>Desigualdade nas metrópoles: renda melhora, mas ainda é menor que antes da pandemia</titulo1>
+            <blogtext1>
+                A décima edição do Boletim Desigualdade nas Metrópoles, produzido em parceria pelo INCT Observatório das Metrópoles, PUCRS Data Social e RedODSAL, mostra que no segundo trimestre de 2022, a renda domiciliar per capita do trabalho chegou a R$1.518,35 nas áreas metropolitanas do país, valor ainda 6,5% inferior à cifra de R$ 1.623,67, registrada no início de 2020.
+    
+    Segundo o pesquisador do PUCRS Data Social e um dos coordenadores do estudo, Andre Salata, foram analisados os últimos microdados disponíveis do IBGE. “Se olharmos o gráfico da desigualdade, a curva atinge o pico no terceiro trimestre de 2020, depois começa a descer e agora é estabilizada em um patamar pré-pandêmico. Porém, este nível já era muito elevado, com alta de desigualdade desde 2014, então estamos falando de um nível de desigualdade que é extremamente elevado. Não tem nada a se comemorar”, avalia.
+    
+    Em suma, o estudo mostra a volta a um patamar de desigualdade nas metrópoles semelhante ao que existia no período anterior à pandemia, mas às custas de uma redução do nível de renda. Ou seja, não foi alcançado o nível de renda que havia no período anterior à pandemia, apesar de, nesse último trimestre, ocorrer um aumento significativo da média de renda.
+    
+    Os dados divulgados pelo IBGE na PNAD Contínua são somente da renda do trabalho, que inclui também pessoas que estão no mercado informal. Entre o primeiro e o segundo trimestres de 2022 houve aumento de 4,8% na renda domiciliar do trabalho, que alcançou a média de R$1.518,35. Em que se trate da mais expressiva variação positiva da renda desde o início da pandemia, o valor ainda é 6,5% menor do que aquele encontrado no início de 2020.
+    
+    A renda observada na pesquisa é a domiciliar per capita do trabalho, onde é somada a renda do trabalho de cada domicílio, e dividida pelo número de pessoas, considerando crianças, já que entram no denominador. “De todo modo, é importante lembrar que, em média, no Brasil, mais de 70% da renda das famílias é do trabalho.
+    
+    O que acontece com a renda do trabalho tem uma importância muito grande para a renda das famílias de um modo geral, seja no que diz respeito às desigualdades, seja a média de renda das pessoas. Acompanhar os movimentos que a gente tem acompanhado na renda do trabalho é importantíssimo para entender e projetar o que pode acontecer em termos de renda total das famílias”, explica Salata.
+    
+    Uma boa notícia, no entanto, é que para os 40% mais pobres das metrópoles a renda do trabalho vem se recuperando desde o quarto trimestre de 2020, e agora, no segundo trimestre de 2022, alcançou o valor de R$ 250,64, chegando a um patamar muito próximo àquele anterior à pandemia. Segundo Marcelo Ribeiro, professor do IPPUR-UFRJ e um dos coordenadores do estudo, no início da pandemia os mais pobres foram os que mais sentiram a queda em sua renda. Mais recentemente, no entanto, os prejuízos se tornaram maiores entre os 10% mais ricos, cuja renda hoje é ainda 10% menor do que no período anterior à pandemia. Ribeiro explica que, enquanto os mais pobres sofreram um grande choque no início, com aumento do desemprego e queda imediata da renda, os mais ricos sofreram perdas maiores recentemente, devido à dificuldade de manter o poder de compra de seus salários em meio ao processo inflacionário num contexto de crise econômica.
+            </blogtext1>
+            <lermais1>Ler mais</lermais1>
+        </postagem>
+        <postagem codigo="152">
+            <titulo>Notícia Três</titulo>
+            <corpo>Terceira notícia Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tempora illo tenetur autem ratione, quos architecto at ut rem libero recusandae aliquid excepturi laborum officiis esse sapiente ad modi exercitationem, voluptatem dolorum. Error eum laboriosam perferendis possimus iste similique, sit autem omnis magnam eaque alias assumenda inventore obcaecati quasi quas!</corpo>
+            <imagem>wolverine.jpg</imagem>
+        </postagem>
+    </blog>
+   
 </content>

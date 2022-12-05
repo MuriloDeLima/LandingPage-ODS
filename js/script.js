@@ -3,14 +3,15 @@ xmlhttp.open("GET", "xml/conteudo.xml", false);
 xmlhttp.send();
 xmlDoc = xmlhttp.responseXML;
 x = xmlDoc.getElementsByTagName("content");
+y = xmlDoc.getElementsByTagName("blog");
 
-function imagenavbar(){
+function imagenavbar() {
     for (i = x.length - 1; i >= 0; i--) {
         document.write("<img src='images/" + x[i].getElementsByTagName("imagenavbar")[0].childNodes[0].nodeValue + "' class='rounded-circle' width='40px'>");
     }
 }
 
-function imageinicio(){
+function imageinicio() {
     for (i = x.length - 1; i >= 0; i--) {
         document.write("<img src='images/" + x[i].getElementsByTagName("imageinicio")[0].childNodes[0].nodeValue + "' class='img-fluid'>");
     }
@@ -73,19 +74,19 @@ function text5() {
     }
 }
 
-function imagecarousel1(){
+function imagecarousel1() {
     for (i = x.length - 1; i >= 0; i--) {
         document.write("<img src='images/" + x[i].getElementsByTagName("imagecarousel1")[0].childNodes[0].nodeValue + "' class='d-block w-100'>");
     }
 }
 
-function imagecarousel2(){
+function imagecarousel2() {
     for (i = x.length - 1; i >= 0; i--) {
         document.write("<img src='images/" + x[i].getElementsByTagName("imagecarousel2")[0].childNodes[0].nodeValue + "' class='d-block w-100'>");
     }
 }
 
-function imagecarousel3(){
+function imagecarousel3() {
     for (i = x.length - 1; i >= 0; i--) {
         document.write("<img src='images/" + x[i].getElementsByTagName("imagecarousel3")[0].childNodes[0].nodeValue + "' class='d-block w-100'>");
     }
@@ -112,9 +113,9 @@ function card1() {
         "<div class='card-body'>");
 
     for (i = x.length - 1; i >= 0; i--) {
-        document.write("<h5 class='card-title text-center font2'>" +
+        document.write("<h5 class='card-title text-center font2 fst-italic'>" +
             x[i].getElementsByTagName("cardtitle1")[0].childNodes[0].nodeValue + "</h5>" +
-            "<p class='card-text font3'>" 
+            "<p class='card-text font3'>"
             + x[i].getElementsByTagName("cardtext1")[0].childNodes[0].nodeValue + "</p>");
     }
     document.write("</div>" +
@@ -129,9 +130,9 @@ function card2() {
         "<div class='card-body'>");
 
     for (i = x.length - 1; i >= 0; i--) {
-        document.write("<h5 class='card-title text-center font2'>" +
+        document.write("<h5 class='card-title text-center font2 fst-italic'>" +
             x[i].getElementsByTagName("cardtitle2")[0].childNodes[0].nodeValue + "</h5>" +
-            "<p class='card-text font3'>" 
+            "<p class='card-text font3'>"
             + x[i].getElementsByTagName("cardtext2")[0].childNodes[0].nodeValue + "</p>");
     }
     document.write("</div>" +
@@ -145,9 +146,9 @@ function card3() {
         "<div class='card-body'>");
 
     for (i = x.length - 1; i >= 0; i--) {
-        document.write("<h5 class='card-title text-center font2'>" +
+        document.write("<h5 class='card-title text-center font2 fst-italic'>" +
             x[i].getElementsByTagName("cardtitle3")[0].childNodes[0].nodeValue + "</h5>" +
-            "<p class='card-text font3'>" 
+            "<p class='card-text font3'>"
             + x[i].getElementsByTagName("cardtext3")[0].childNodes[0].nodeValue + "</p>");
     }
     document.write("</div>" +
@@ -161,9 +162,9 @@ function card4() {
         "<div class='card-body'>");
 
     for (i = x.length - 1; i >= 0; i--) {
-        document.write("<h5 class='card-title text-center font2'>" +
+        document.write("<h5 class='card-title text-center font2 fst-italic'>" +
             x[i].getElementsByTagName("cardtitle4")[0].childNodes[0].nodeValue + "</h5>" +
-            "<p class='card-text font3'>" 
+            "<p class='card-text font3'>"
             + x[i].getElementsByTagName("cardtext4")[0].childNodes[0].nodeValue + "</p>");
     }
     document.write("</div>" +
@@ -177,9 +178,9 @@ function card5() {
         "<div class='card-body'>");
 
     for (i = x.length - 1; i >= 0; i--) {
-        document.write("<h5 class='card-title text-center font2'>" +
+        document.write("<h5 class='card-title text-center font2 fst-italic'>" +
             x[i].getElementsByTagName("cardtitle5")[0].childNodes[0].nodeValue + "</h5>" +
-            "<p class='card-text font3'>" 
+            "<p class='card-text font3'>"
             + x[i].getElementsByTagName("cardtext5")[0].childNodes[0].nodeValue + "</p>");
     }
     document.write("</div>" +
@@ -188,47 +189,89 @@ function card5() {
 }
 
 function card6() {
-    document.write("<div class='col-12 col-sm-6 col-lg-4 mt-2'>" +
-        "<div class='card bg-dark' style='min-height: 270px;'>" +
-        "<div class='card-body'>");
 
     for (i = x.length - 1; i >= 0; i--) {
-        document.write("<h5 class='card-title text-center font2'>" +
+        document.write(
+        "<div class='col-12 col-sm-6 col-lg-4 mt-2'>" +
+        "<div class='card bg-dark' style='min-height: 270px;'>" +
+        "<div class='card-body'>" +
+        "<h5 class='card-title text-center font2 fst-italic'>" +
             x[i].getElementsByTagName("cardtitle6")[0].childNodes[0].nodeValue + "</h5>" +
-            "<p class='card-text font3'>" 
-            + x[i].getElementsByTagName("cardtext6")[0].childNodes[0].nodeValue + "</p>");
-    }
-    document.write("</div>" +
+            "<p class='card-text font3'>"
+            + x[i].getElementsByTagName("cardtext6")[0].childNodes[0].nodeValue + "</p>"); +
+            "</div>" +
         "</div>" +
-        "</div>")
+        "</div>"
+    }
 }
 
 // Fim cards
 
+// Blog
 
+function notPrincipal() {
+    for (i = y.length - 1; i >= 0; i--) {
+            document.write(
+                "<h1 class='display-5 font2'>" +
+                 y[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue + "</h1>" +
+                "<p class='font3' style='padding-top: 20px;'>"+
+                 y[i].getElementsByTagName("blogtext")[0].childNodes[0].nodeValue.substr(0, 273) + "...</p>" +
+                 "<a class='font3 lead' style='padding-top: 20px; padding-left: 35px' href='noticias.html?codigo_noticia="+i+"'>"+y[i].getElementsByTagName("lermais")[0].childNodes[0].nodeValue+"</a>"  );
+    }
+}
+
+function funcaoPostagem() {
+    url = new URL(window.location.href)
+    parametro = url.searchParams;
+    i = parametro.get("codigo_noticia");
+
+    document.write(
+        "<h1 style='color: #de1768;'>" + y[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue + "</h1>" +
+        "<h6 class='font'>" + y[i].getElementsByTagName("subtitle")[0].childNodes[0].nodeValue + "</h6>" +
+        "<p class='font mt-5'>" + y[i].getElementsByTagName("blogtext")[0].childNodes[0].nodeValue + "</p>");
+}
+
+
+
+function noticias(){
+    for(i = y.length - 1; i >= 0; i--){
+        document.write(
+            "<h3 class='mb-0 font2'>" +
+             y[i].getElementsByTagName("titulo1")[0].childNodes[0].nodeValue + "</h3>" +
+            "<p class='card-text mb-auto font3'>"+
+             y[i].getElementsByTagName("blogtext1")[0].childNodes[0].nodeValue.substr(0, 273) + "...</p>" + 
+             "<a class='font3 stretched-link pt-3' href='noticias.html?codigo_noticia="+i+"'>"+
+             y[i].getElementsByTagName("lermais1")[0].childNodes[0].nodeValue+"</a>");
+    }
+}
+
+// Blog
+
+
+// Footer
 function footercreators() {
     for (i = x.length - 1; i >= 0; i--) {
-        document.write( "<h5 class='font2 text-center'>" + x[i].getElementsByTagName("footercreators")[0].childNodes[0].nodeValue + 
-        "</h5>");
+        document.write("<h5 class='font2 text-center'>" + x[i].getElementsByTagName("footercreators")[0].childNodes[0].nodeValue +
+            "</h5>");
     }
 }
 
 function footername1() {
     for (i = x.length - 1; i >= 0; i--) {
-        document.write( "<a href='https://github.com/Kauadt' class='font3'>" + x[i].getElementsByTagName("footername1")[0].childNodes[0].nodeValue + "</a>");
+        document.write("<a href='https://github.com/Kauadt' class='font3'>" + x[i].getElementsByTagName("footername1")[0].childNodes[0].nodeValue + "</a>");
     }
 }
 
 function footername2() {
     for (i = x.length - 1; i >= 0; i--) {
-        document.write( "<a href='https://github.com/MuriloDeLima' class='font3'>" + x[i].getElementsByTagName("footername2")[0].childNodes[0].nodeValue + "</a>");
+        document.write("<a href='https://github.com/MuriloDeLima' class='font3'>" + x[i].getElementsByTagName("footername2")[0].childNodes[0].nodeValue + "</a>");
     }
 }
 
 
 function footername3() {
     for (i = x.length - 1; i >= 0; i--) {
-        document.write( "<a href='hhttps://github.com/zzzKauaMoledo' class='font3'>" + x[i].getElementsByTagName("footername3")[0].childNodes[0].nodeValue + "</a>");
+        document.write("<a href='hhttps://github.com/zzzKauaMoledo' class='font3'>" + x[i].getElementsByTagName("footername3")[0].childNodes[0].nodeValue + "</a>");
     }
 }
 
@@ -238,26 +281,27 @@ function footertext1() {
     }
 }
 
-function imageinsta(){
+function imageinsta() {
     for (i = x.length - 1; i >= 0; i--) {
         document.write("<img src='images/" + x[i].getElementsByTagName("imagefooter1")[0].childNodes[0].nodeValue + "'>");
     }
 }
 
-function imagetwitter(){
+function imagetwitter() {
     for (i = x.length - 1; i >= 0; i--) {
         document.write("<img src='images/" + x[i].getElementsByTagName("imagefooter2")[0].childNodes[0].nodeValue + "'>");
     }
 }
 
-function imageyt(){
+function imageyt() {
     for (i = x.length - 1; i >= 0; i--) {
         document.write("<img src='images/" + x[i].getElementsByTagName("imagefooter3")[0].childNodes[0].nodeValue + "'>");
     }
 }
 
-function imageface(){
+function imageface() {
     for (i = x.length - 1; i >= 0; i--) {
         document.write("<img src='images/" + x[i].getElementsByTagName("imagefooter4")[0].childNodes[0].nodeValue + "'>");
     }
 }
+// Footer

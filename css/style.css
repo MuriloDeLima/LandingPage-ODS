@@ -17,7 +17,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: 25px;
-    color: #000000;
+    color: #000000 !important;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -28,8 +28,9 @@
 .font2 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 25px;
+    font-size: min(22px, 4vw);
     color: #de1768 !important;
     margin-left: auto;
     margin-right: auto;
@@ -51,10 +52,23 @@
     width: 90%;
 }
 
+.titlenot{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    color: #de1768 !important;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: left;
+    width: 90%;
+}
+
 
 
 h1 {
-    color: #de1768;
+    color: #000000;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -98,6 +112,63 @@ a:visited{
     margin-left: auto;
     margin-right: auto;
 }
+
+.areanot{
+    width: 100%;
+    min-height: 330px;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.quadrado{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+.imagem{
+    width: 100%;
+    height: 100%;
+}
+
+
+a:hover{
+    color: #de1768 !important;
+}
+
+#linha{
+    min-height: 5px;
+    animation: linha 10s infinite;
+}
+
+
+@keyframes linha{
+    0%{width: 0%; background: #000000;}
+    5%{width: 10%; background: #000000;}
+    10%{width: 20%; background: #de1768;}
+    15%{width: 30%; background: #de1768;}
+    20%{width: 40%; background: #de1768;}
+    25%{width: 50%; background: #de1768;}
+    30%{width: 60%; background: #de1768;}
+    35%{width: 70%; background: #000000;}
+    40%{width: 80%; background: #000000;}
+    45%{width: 90%; background: #000000;}
+    50%{width: 100%; background: #000000;}
+    55%{width: 100%; background: #de1768;}
+    60%{width: 90%; background: #de1768;}
+    65%{width: 80%; background: #de1768;}
+    70%{width: 70%; background: #000000;}
+    75%{width: 60%; background: #000000;}
+    80%{width: 50%; background: #000000;}
+    85%{width: 40%; background: #de1768;}
+    90%{width: 30%; background: #de1768;}
+    95%{width: 20%; background: #000000;}
+    100%{width: 10%; background: #000000;}
+}
+
+
 
 
 

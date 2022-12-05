@@ -8,10 +8,12 @@
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
+  <script src="js/blog.js"></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="imagem/ico" href="/images/icon.ico " />
   <title>Agenda 2030 - ODS 10</title>
 </head>
 
@@ -19,33 +21,48 @@
   <div class="wrapper">
 
     <!-- Barra de navegação-->
-    <nav class="navbar bg-dark">
-      <div class="container">
-        <a class="navbar-brand">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand ps-5 ms-4" href="#">
           <script>imagenavbar()</script>
         </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active pe-0 pt2" aria-current="page" href="#inicio">Início</a>
+            <a class="nav-link pt2" href="#oqsods">O que são ODS?</a>
+            <a class="nav-link pt2" href="#ods">ODS-10</a>
+            <a class="nav-link pt2" href="#metas">Metas</a>
+            <a class="nav-link pt2" href="#noticias">Notícias</a>
+          </div>
+        </div>
       </div>
     </nav>
-    <!-- Barra de navegação-->
 
     <!-- Titulo com imagem-->
-    <script> imageinicio()</script>
+    <div id="inicio">
+      <script> imageinicio()</script>
+    </div>
     <!-- Titulo com imagem-->
 
 
     <!-- Área de texto 1-->
-    <div class="container-fluid" style="min-height: 1000px;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-8 col-xs-6">
-            <script>
-              title1()
-              text1()
-              text2()
-              image1()
-              text3()
-              text4()
+    <div id="oqsods">
+      <div class="container-fluid" style="min-height: 1000px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-8 col-xs-6">
+              <script>
+                title1()
+                text1()
+                text2()
+                image1()
+                text3()
               </script>
+            </div>
           </div>
         </div>
       </div>
@@ -54,126 +71,194 @@
 
 
     <!-- Área de texto 2-->
-    <div class="container-fluid div2">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-8 col-xs-6">
-            <script>
-              title2()
-              text5()
-            </script>
-            <br><br>
-            <!-- Carousel -->
-            <div class="row">
-              <div class="col-xxl-8 col-md-6 col-sm-6 col-xs-4 center">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner" style="border-radius: 10px;">
-                    <div class="carousel-item active">
-                      <script>imagecarousel1()</script>
+    <div id="ods">
+      <div class="container-fluid div2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-8 col-xs-6">
+              <script>
+                title2()
+                text5()
+              </script>
+              <br><br>
+              <!-- Carousel -->
+              <div class="row">
+                <div class="col-xxl-8 col-md-6 col-sm-6 col-xs-4 center">
+                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" style="border-radius: 10px;">
+                      <div class="carousel-item active">
+                        <script>imagecarousel1()</script>
+                      </div>
+                      <div class="carousel-item">
+                        <script>imagecarousel2()</script>
+                      </div>
+                      <div class="carousel-item">
+                        <script>imagecarousel3()</script>
+                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <script>imagecarousel2()</script>
-                    </div>
-                    <div class="carousel-item">
-                      <script>imagecarousel3()</script>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                </div>
+                <!-- Carousel -->
+                <div class="col-md-12 col-sm-8 col-xs-6">
+                  <script>text6()</script>
                 </div>
               </div>
-              <!-- Carousel -->
-              <div class="col-md-12 col-sm-8 col-xs-6">
-                <script>text6()</script>
-              </div>
+              <br><br>
             </div>
-            <br><br>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Área de texto 2-->
 
     <!-- Área de texto 3-->
-    <div class="container-fluid" style="min-height: 870px;">
-      <div class="container div1">
-        <div class="row">
-          <div class="col-md-12 col-sm-8 col-xs-6">
-            <script>title3()</script>
+    <div id="metas">
+      <div class="container-fluid" style="min-height: 470px;">
+        <div class="container div1">
+          <div class="row">
+            <div class="col-md-12 col-sm-8 col-xs-6">
+              <script>title3()</script>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <!-- Card  -->
+            <script>
+              card1()
+              card2()
+              card3()
+            </script>
+          </div>
+          <div class="row mt-5">
+            <script>
+              card4()
+              card5()
+              card6()
+            </script>
+            <!-- Card -->
           </div>
         </div>
-        <div class="row mt-5">
-          <!-- Card  -->
-          <script>
-            card1()
-            card2()
-            card3()
-          </script>
-        </div>
-        <div class="row mt-5">
-          <script>
-            card4()
-            card5()
-            card6()
-          </script>
-          <!-- Card -->
-        </div>
       </div>
     </div>
-
     <!-- Área de texto 3-->
 
-    <!-- Footer -->
-    <div class="container-fluid bg-dark">
-      <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <section class="col-12 col-md-5 mb-5">
-            <script>footercreators()</script>
-            <ul>
-              <li class="text-center">
-                <script>footername1()</script>
-              </li>
-              <li class="text-center">
-                <script>footername2()</script>
-              </li>
-              <li class="text-center">
-                <script>footername3()</script>
-              </li>
-            </ul>
-          </section>
-          <section class="col-12 col-md-5">
-            <h5 class="font2 text-center">
-              <script>footertext1()</script>
-            </h5>
-            <ul>
-              <li class="text-center">
-                <a href="https://www.instagram.com/onubrasil/">
-                  <script>imageinsta()</script>
-                </a>
-                <a href="https://twitter.com/ONUBrasil">
-                  <script>imagetwitter()</script>
-                </a>
-                <a href="https://www.youtube.com/onubrasiloficial">
-                 <script>imageyt()</script>
-                </a>
-                <a href="https://www.facebook.com/ONUBrasil">
-                 <script>imageface()</script>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </footer>
+    <div class="container pt-2">
+      <div id="linha"></div>
+    </div>
+
+    <!-- Noticias -->
+    <div id="noticias">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="mt-5">
+            <h1 class="text-center" style="color: #000000;">Últimas <span style="color: #de1768;">notícias</span></h1>
+          </div>
+          <div class="areanot center mt-5">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 ">
+                <div class="quadrado">
+                  <div class="imagem">
+                    <img src="images/not-img.png" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mt-3 pt-4">
+                <script>
+                  notPrincipal()
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-5">
+        <div class="container">
+          <div class="row mb-2">
+            <div class="col-md-6">
+              <div
+                class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <script>
+                    noticias()
+                  </script>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <h3 class="mb-0 font2">Titulo</h3>
+                  <p class="card-text mb-auto font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sint
+                    quam,
+                    aperiam numquam nemo dicta quibusdam voluptatem repellendus ipsa ex inventore omnis labore, totam
+                    provident adipisci tempora repudiandae minus fugiat?</p>
+                  <a href="#" class="stretched-link font3 pt-3">Ler mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!--footer-->
+  </div>
+  <!-- Noticias -->
+
+
+  <!-- Footer -->
+  <div class="container-fluid bg-dark">
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <section class="col-12 col-md-5 mb-5">
+          <script>footercreators()</script>
+          <ul>
+            <li class="text-center">
+              <script>footername1()</script>
+            </li>
+            <li class="text-center">
+              <script>footername2()</script>
+            </li>
+            <li class="text-center">
+              <script>footername3()</script>
+            </li>
+          </ul>
+        </section>
+        <section class="col-12 col-md-5">
+          <h5 class="font2 text-center">
+            <script>footertext1()</script>
+          </h5>
+          <ul>
+            <li class="text-center">
+              <a href="https://www.instagram.com/onubrasil/">
+                <script>imageinsta()</script>
+              </a>
+              <a href="https://twitter.com/ONUBrasil">
+                <script>imagetwitter()</script>
+              </a>
+              <a href="https://www.youtube.com/onubrasiloficial">
+                <script>imageyt()</script>
+              </a>
+              <a href="https://www.facebook.com/ONUBrasil">
+                <script>imageface()</script>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </footer>
+    </div>
+  </div>
+  <!--footer-->
   </div>
 </body>
 
