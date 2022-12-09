@@ -6,11 +6,11 @@
     </navbar>
     <part>
         <imageinicio>image-inicio.jpg</imageinicio>
-            <title1> O que são os Objetivos de Desenvolvimento Sustentáveis? </title1>
-                <text1>
+        <title1> O que são os Objetivos de Desenvolvimento Sustentáveis? </title1>
+        <text1>
                 Os Objetivos de Desenvolvimento Sustentáveis (ODS) é uma agenda mundial adotada durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável em setembro de 2015, composta por 17 objetivos e 169 metas a serem atingidos até 2030.
                 </text1>
-                <text2>
+        <text2>
               Os 193 Estados membros da ONU, incluindo o Brasil, comprometeram-se a adotar a chamada Agenda 2030, considerada uma das mais ambiciosas da história da diplomacia internacional. A partir dela, as nações trabalharão para cumprir os ODS.
                 </text2>
         <image1>onu.png</image1>
@@ -84,46 +84,87 @@
     <!-- Blog -->
     <blog>
         <postagem codigo="150">
-            <titulo>Índice medirá a redução de desigualdades na educação</titulo>
-            <subtitle>Cálculo do Inep aferirá melhoria de indicadores educacionais. Encurtamento das disparidades é critério para distribuição de recursos às redes em 2023</subtitle>
+            <imageblog>not-img2.png</imageblog>
+            <titulo>Pessoas pretas e pardas continuam com menor acesso a emprego, educação, segurança e saneamento</titulo>
             <blogtext>
-                 A Comissão Intergovernamental de Financiamento para a Educação Básica de Qualidade aprovou a metodologia de cálculo para medir a redução das desigualdades educacionais socioeconômicas e raciais, condicionantes para a distribuição de recursos da complementação Valor Aluno Ano Resultado (VAAR) do Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação (Fundeb). O Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) elaborou o método, que será aplicado no Sistema Nacional de Avaliação da Educação Básica (Saeb), coordenado pela Autarquia.
-    
-                A proposta do VAAR, desenvolvida por especialistas do Inep, compreende, entre outros fatores, a melhoria de indicadores de atendimento e de aprendizagem com redução das desigualdades, sendo também critério para habilitar as redes de ensino a receberem o suporte da União. Nesse contexto, o índice será um dos fatores considerados na distribuição de recursos às redes públicas, a partir de 2023. Especificamente no próximo ano, os dados do Saeb 2021 não serão utilizados, em razão dos impactos da pandemia de covid-19 nos resultados. Desse modo, o cumprimento da condicionante será medido pelos dados de cor e raça coletados nos questionários, além do desempenho dos alunos nas edições de 2017 e 2019. O Indicador de Nível Socioeconômico (Inse) também será considerado.
-       
-                Fundeb – O Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação é um mecanismo permanente de financiamento educacional brasileiro. O novo Fundeb é formado por 27 fundos, sendo 26 estaduais e 1 do Distrito Federal, que são compostos, basicamente, pelas contribuições desses entes federados. A União complementa quando os valores mínimos definidos não são alcançados. Uma das formas de complementação, com efeitos a partir de 2023, será o VAAR.
-     
-                Recursos – A distribuição dos recursos é feita tendo como base as matrículas, ponderadas por 19 fatores principais, de acordo com as etapas de ensino (infantil, fundamental e médio), as modalidades (regular, educação de jovens e adultos ou educação profissional e tecnológica), duração da jornada (parcial ou integral) e os tipos de estabelecimentos educacionais (rural ou urbano).
-    
-                Colegiado – Vinculada ao Ministério da Educação (MEC), a Comissão Intergovernamental de Financiamento para a Educação Básica de Qualidade tem suas atribuições previstas na lei que regulamentou o Novo Fundeb. Ao grupo compete, por exemplo, especificar, anualmente, os fatores de ponderação a serem considerados na partilha do fundo. O colegiado conta com representantes do MEC, do Inep e do Fundo Nacional de Desenvolvimento da Educação (FNDE). Secretários estaduais e municipais de Educação fazem parte da composição. A Resolução (n.º 5/2022) sobre a metodologia do VAAR foi publicada no Diário Oficial da União (DOU) da última semana.
-            </blogtext>
+                As desigualdades sociais por cor ou raça seguem evidentes no mercado de trabalho. A desocupação, a subutilização e a informalidade continuam atingindo mais pretos e pardos do que os brancos. Em 2021, as taxas de desocupação foram de 11,3% para os brancos, de 16,5% para os pretos e de 16,2% para os pardos. No ano anterior, esses percentuais foram de 11,1%, 17,4% e 15,5%, respectivamente. Os dados são do estudo Desigualdades Sociais por Cor ou Raça no Brasil, divulgado hoje (11) pelo IBGE.
+
+“As populações preta e parda representam 9,1% e 47% da população brasileira, respectivamente. Mas, nos indicadores que refletem melhores níveis de condições de vida, a participação dessas populações é mais baixa”, diz o analista do IBGE João Hallak.
+
+Desemprego e informalidade são maiores entre pretos e pardos
+
+Em 2021, a taxa de subutilização era de 22,5% entre os brancos, enquanto era de 32,0% entre os pretos e 33,4% entre os pardos. “A taxa composta de subutilização considera, além da desocupação, a população subocupada por insuficiência de horas trabalhadas e quem estava na força de trabalho potencial. Entre os brancos, essa taxa era inferior às das populações preta e parda, e isso não muda conforme o nível de instrução. A distância varia um pouco, mas em todos os níveis de instrução a população branca tem uma taxa de subutilização inferior à da preta ou parda”, analisa o pesquisador.
+
+Enquanto os brancos representavam 43,8% da força de trabalho (soma de ocupados e desocupados), os pretos eram 10,2% e os pardos, 45,0%. Mas os percentuais de pretos e pardos são mais altos entre os desocupados: 12,0% e 52,0%, respectivamente. Já os brancos eram 35,2% dos desocupados em 2021.
+
+“Esse indicador já mostra uma desvantagem dessas populações na inserção no mercado de trabalho. As proporções das populações preta ou parda entre os desocupados e subutilizados são maiores do que elas representam na força de trabalho”, destaca Hallak.
+
+A informalidade também atinge mais pretos e pardos do que brancos. Em 2021, a taxa de informalidade era 40,1%, mas os brancos tinham uma taxa menor, de 32,7%, e os pretos (43,4%) e pardos (47,0%), maior que a média nacional. Essa diferença acompanha toda a série do estudo. </blogtext>
+
+<blogtext2>
+    Em relação ao rendimento de todas as fontes, que inclui, além do trabalho, aposentadoria e pensão, a distinção também permanecia. Em 2021, o rendimento médio domiciliar per capita da população branca, de R$1.866, era quase o dobro do verificado para a populações preta (R$964) e parda (R$945), diferença que se mantém desde o início da série histórica, em 2012. Também no ano passado, os rendimentos foram os mais baixos da série, com maior queda entre os pretos (-8,9%) e pardos (-8,6%). Entre os brancos, a redução de rendimento frente ao ano anterior foi de 6,0%.
+
+Condições de moradia e patrimônio são bastante desiguais entre brancos, pretos e pardos
+
+Pretos e pardos enfrentam uma situação de maior insegurança de posse e de informalidade da moradia própria. Entre a população residente em domicílios próprios, 20,8% das pessoas pardas e 19,7% das pessoas pretas residiam em domicílios sem documentação da propriedade, enquanto a proporção entre as pessoas brancas era praticamente a metade (10,1%).
+
+Uma das fontes utilizadas no estudo, a Pesquisa de Orçamento Familiar (POF) 2017-2018 indicou o valor hipotético de aluguel dos domicílios próprios de acordo com avaliação dos moradores. Entre os domicílios com pessoas responsáveis brancas, o valor médio era de R$998, enquanto no de pessoas pardas, o valor era de R$555 e de pessoas pretas, R$571.
+
+“Os domicílios das populações preta e parda têm menos acesso a saneamento e menor número de cômodos, então isso reflete em um valor menor desses domicílios”, explica o analista Bruno Perez.
+
+Em relação à posse de bens duráveis, as pessoas brancas tinham maior presença de quase todos os itens analisados, com exceção das motocicletas. Além disso, os brancos também tinham, em média, maior quantidade dos bens em proporção ao número de moradores de sua residência: 10,2% viviam em domicílio com um ou mais automóvel por adulto. Entre os pretos, essa proporção era de 2,7% e em entre os pardos, 3,5%.
+</blogtext2>
             <lermais>Ler mais</lermais>
-    
+            <fonte>https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/35467-pessoas-pretas-e-pardas-continuam-com-menor-acesso-a-emprego-educacao-seguranca-e-saneamento</fonte>
         </postagem>
         <postagem codigo="151">
-            <titulo1>Desigualdade nas metrópoles: renda melhora, mas ainda é menor que antes da pandemia</titulo1>
-            <blogtext1>
+            <imageblog>not-img.png</imageblog>
+            <titulo>Desigualdade nas metrópoles: renda melhora, mas ainda é menor que antes da pandemia</titulo>
+            <blogtext>
                 A décima edição do Boletim Desigualdade nas Metrópoles, produzido em parceria pelo INCT Observatório das Metrópoles, PUCRS Data Social e RedODSAL, mostra que no segundo trimestre de 2022, a renda domiciliar per capita do trabalho chegou a R$1.518,35 nas áreas metropolitanas do país, valor ainda 6,5% inferior à cifra de R$ 1.623,67, registrada no início de 2020.
     
-    Segundo o pesquisador do PUCRS Data Social e um dos coordenadores do estudo, Andre Salata, foram analisados os últimos microdados disponíveis do IBGE. “Se olharmos o gráfico da desigualdade, a curva atinge o pico no terceiro trimestre de 2020, depois começa a descer e agora é estabilizada em um patamar pré-pandêmico. Porém, este nível já era muito elevado, com alta de desigualdade desde 2014, então estamos falando de um nível de desigualdade que é extremamente elevado. Não tem nada a se comemorar”, avalia.
+    Segundo o pesquisador do PUCRS Data Social e um dos coordenadores do estudo, Andre Salata, foram analisados os últimos microdados disponíveis do IBGE. “Se olharmos o gráfico da desigualdade, a curva atinge o pico no terceiro trimestre de 2020, depois começa a descer e agora é estabilizada em um patamar pré-pandêmico. Porém, este nível já era muito elevado, com alta de desigualdade desde 2014, então estamos falando de um nível de desigualdade que é extremamente elevado. Não tem nada a se comemorar”, avalia. </blogtext>
+
+
+    <blogtext2>
+        Em suma, o estudo mostra a volta a um patamar de desigualdade nas metrópoles semelhante ao que existia no período anterior à pandemia, mas às custas de uma redução do nível de renda. Ou seja, não foi alcançado o nível de renda que havia no período anterior à pandemia, apesar de, nesse último trimestre, ocorrer um aumento significativo da média de renda.
     
-    Em suma, o estudo mostra a volta a um patamar de desigualdade nas metrópoles semelhante ao que existia no período anterior à pandemia, mas às custas de uma redução do nível de renda. Ou seja, não foi alcançado o nível de renda que havia no período anterior à pandemia, apesar de, nesse último trimestre, ocorrer um aumento significativo da média de renda.
+        Os dados divulgados pelo IBGE na PNAD Contínua são somente da renda do trabalho, que inclui também pessoas que estão no mercado informal. Entre o primeiro e o segundo trimestres de 2022 houve aumento de 4,8% na renda domiciliar do trabalho, que alcançou a média de R$1.518,35. Em que se trate da mais expressiva variação positiva da renda desde o início da pandemia, o valor ainda é 6,5% menor do que aquele encontrado no início de 2020. 
+    </blogtext2>
+  
     
-    Os dados divulgados pelo IBGE na PNAD Contínua são somente da renda do trabalho, que inclui também pessoas que estão no mercado informal. Entre o primeiro e o segundo trimestres de 2022 houve aumento de 4,8% na renda domiciliar do trabalho, que alcançou a média de R$1.518,35. Em que se trate da mais expressiva variação positiva da renda desde o início da pandemia, o valor ainda é 6,5% menor do que aquele encontrado no início de 2020.
+    <blogtext2>
+        A renda observada na pesquisa é a domiciliar per capita do trabalho, onde é somada a renda do trabalho de cada domicílio, e dividida pelo número de pessoas, considerando crianças, já que entram no denominador. “De todo modo, é importante lembrar que, em média, no Brasil, mais de 70% da renda das famílias é do trabalho.
     
-    A renda observada na pesquisa é a domiciliar per capita do trabalho, onde é somada a renda do trabalho de cada domicílio, e dividida pelo número de pessoas, considerando crianças, já que entram no denominador. “De todo modo, é importante lembrar que, em média, no Brasil, mais de 70% da renda das famílias é do trabalho.
-    
-    O que acontece com a renda do trabalho tem uma importância muito grande para a renda das famílias de um modo geral, seja no que diz respeito às desigualdades, seja a média de renda das pessoas. Acompanhar os movimentos que a gente tem acompanhado na renda do trabalho é importantíssimo para entender e projetar o que pode acontecer em termos de renda total das famílias”, explica Salata.
-    
-    Uma boa notícia, no entanto, é que para os 40% mais pobres das metrópoles a renda do trabalho vem se recuperando desde o quarto trimestre de 2020, e agora, no segundo trimestre de 2022, alcançou o valor de R$ 250,64, chegando a um patamar muito próximo àquele anterior à pandemia. Segundo Marcelo Ribeiro, professor do IPPUR-UFRJ e um dos coordenadores do estudo, no início da pandemia os mais pobres foram os que mais sentiram a queda em sua renda. Mais recentemente, no entanto, os prejuízos se tornaram maiores entre os 10% mais ricos, cuja renda hoje é ainda 10% menor do que no período anterior à pandemia. Ribeiro explica que, enquanto os mais pobres sofreram um grande choque no início, com aumento do desemprego e queda imediata da renda, os mais ricos sofreram perdas maiores recentemente, devido à dificuldade de manter o poder de compra de seus salários em meio ao processo inflacionário num contexto de crise econômica.
-            </blogtext1>
-            <lermais1>Ler mais</lermais1>
+        O que acontece com a renda do trabalho tem uma importância muito grande para a renda das famílias de um modo geral, seja no que diz respeito às desigualdades, seja a média de renda das pessoas. Acompanhar os movimentos que a gente tem acompanhado na renda do trabalho é importantíssimo para entender e projetar o que pode acontecer em termos de renda total das famílias”, explica Salata.
+        
+        Uma boa notícia, no entanto, é que para os 40% mais pobres das metrópoles a renda do trabalho vem se recuperando desde o quarto trimestre de 2020, e agora, no segundo trimestre de 2022, alcançou o valor de R$ 250,64, chegando a um patamar muito próximo àquele anterior à pandemia. Segundo Marcelo Ribeiro, professor do IPPUR-UFRJ e um dos coordenadores do estudo, no início da pandemia os mais pobres foram os que mais sentiram a queda em sua renda. Mais recentemente, no entanto, os prejuízos se tornaram maiores entre os 10% mais ricos, cuja renda hoje é ainda 10% menor do que no período anterior à pandemia. Ribeiro explica que, enquanto os mais pobres sofreram um grande choque no início, com aumento do desemprego e queda imediata da renda, os mais ricos sofreram perdas maiores recentemente, devido à dificuldade de manter o poder de compra de seus salários em meio ao processo inflacionário num contexto de crise econômica.
+    </blogtext2>
+   
+            
+            <lermais>Ler mais</lermais>
+            <fonte>https://www.brasildefato.com.br/2022/11/10/desigualdade-nas-metropoles-renda-melhora-mas-ainda-e-menor-que-no-periodo-anterior-a-pandemi</fonte>
         </postagem>
         <postagem codigo="152">
-            <titulo>Notícia Três</titulo>
-            <corpo>Terceira notícia Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tempora illo tenetur autem ratione, quos architecto at ut rem libero recusandae aliquid excepturi laborum officiis esse sapiente ad modi exercitationem, voluptatem dolorum. Error eum laboriosam perferendis possimus iste similique, sit autem omnis magnam eaque alias assumenda inventore obcaecati quasi quas!</corpo>
-            <imagem>wolverine.jpg</imagem>
+            <imageblog>not-img3.png</imageblog>
+            <titulo>Redução de desigualdades na educação será condicionante para recursos do Fundeb</titulo>
+            <blogtext>
+                A redução de desigualdades na educação será uma condicionante para a distribuição dos recursos do Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação (Fundeb). A medida passa a valer a partir de 2023, após a Comissão Intergovernamental de Financiamento para a Educação Básica de Qualidade ter aprovado a metodologia que irá calcular os dados educacionais socioeconômicos e raciais. 
+
+                Os recursos em questão complementam o Valor Aluno Ano Resultado (VAAR) do Fundeb que é distribuído aos estados de acordo com fatores como o número de matrículas em cada etapa de ensino. Também são consideradas todas as modalidades vigentes no sistema educacional do país, compreendendo também a Educação de jovens e adultos (EJA) e o ensino profissionalizante, além da localidade do estabelecimento de ensino, se está em uma zona rural ou urbana.   </blogtext>
+
+                <blogtext2>
+                    A União Nacional dos Dirigentes Municipais de Educação (Undime) informou que a nova proposta de distribuição para os recursos do VAAR vai considerar a melhoria de indicadores de atendimento e de aprendizagem com redução das desigualdades. 
+
+                    O novo cálculo para a distribuição dos recursos do Fundeb foi elaborado pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep). A medida entrará em vigor com os dados das edições da avaliação do Sistema Nacional de Avaliação da Educação Básica (Saeb) de 2017 e 2019.
+    
+    Os dados de 2021 não serão considerados para o próximo ano, conforme a Undime, por causa do impacto da pandemia de coronavírus da educação brasileira. Por esse motivo, serão utilizados o Indicador de Nível Socioeconômico (Inse) e os dados de cor e raça coletados em 2017 e 2019. 
+    
+    Os recursos do Fundeb são gerados de contribuições dos 26 estados e do Distrito Federal, além de uma contribuição do Governo Federal. O Fundo funciona como um financiamento para a educação brasileira e, segundo o MEC, é distribuído para cada governo estadual e municipal com base no número de alunos da educação básica pública. Desta forma, cada unidade da federação recebe um valor uniforme ao seu quadro educacional.
+                </blogtext2>
+            <lermais>Ler mais</lermais>
+            <fonte>https://sagresonline.com.br/reducao-de-desigualdades-na-educacao-sera-condicionante-para-recursos-do-fundeb/</fonte>
         </postagem>
     </blog>
-   
+
 </content>

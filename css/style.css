@@ -12,6 +12,11 @@
     background-color: #000000 !important;
 }
 
+
+.btn-dark{
+    background: #000000 !important;
+}
+
 .font {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -30,13 +35,13 @@
     font-style: normal;
     font-weight: 500;
     line-height: 25px;
-    font-size: min(22px, 4vw);
+    font-size: min(24px, 5vw);
     color: #de1768 !important;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     text-align: left;
-    width: 90%;
+    width: 95%;
 }
 
 .font3 {
@@ -78,7 +83,7 @@ h1 {
     margin-right: auto;
     align-items: center;
     text-align: left;
-    width: 90%;
+    width: 95%;
 }
 
 p{
@@ -126,6 +131,14 @@ a:visited{
     border-radius: 10px;
 }
 
+.areaimgnot{
+    width: 85%;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #de1768;
+}
+
 
 
 .imagem{
@@ -167,8 +180,6 @@ a:hover{
     95%{width: 20%; background: #000000;}
     100%{width: 10%; background: #000000;}
 }
-
-
 
 
 
